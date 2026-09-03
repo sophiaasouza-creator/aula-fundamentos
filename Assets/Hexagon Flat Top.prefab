@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 169899246860301982}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9, y: 0.33, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.001, y: 0.344, z: 0}
+  m_LocalScale: {x: 0.2645, y: 0.2537, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -103,7 +103,7 @@ PolygonCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 526674d60d6899544aed6b082b7639aa, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
