@@ -542,6 +542,7 @@ GameObject:
   m_Component:
   - component: {fileID: 773981228}
   - component: {fileID: 773981229}
+  - component: {fileID: 773981230}
   m_Layer: 0
   m_Name: GerarMeteoros
   m_TagString: Untagged
@@ -576,17 +577,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6d0ec738195d5043a4cdc9b92281658, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
-  SpawnItens:
-  - {fileID: 6324757300495846093, guid: 5f8f2271d4cbe4443b69f1b9eb35d688, type: 3}
-  - {fileID: 6101260086195480898, guid: 5d77384e9970e5a4989b236a1ebd74ef, type: 3}
-  - {fileID: 5179913239057701331, guid: bb53a5c54291e1347b45c76c799b13ad, type: 3}
-  - {fileID: 2655187958621691883, guid: 0d9f7adb64826a9408af74b954da416e, type: 3}
-  - {fileID: 3902425000170265138, guid: e104dcb9f9ba4db4d8978c63032fbe2b, type: 3}
-  SpawnTime: 2
-  SpawnDelay: 2
-  minX: -10
-  maxX: 10
-  spawnY: 10
+  SpawnItens: []
+  SpawnTime: 0
+  SpawnDelay: 0
+  minX: -8
+  maxX: 8
+  spawnY: 6
+--- !u!114 &773981230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773981227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d0ec738195d5043a4cdc9b92281658, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spawner
+  SpawnItens: []
+  SpawnTime: 0
+  SpawnDelay: 0
+  minX: -8
+  maxX: 8
+  spawnY: 6
 --- !u!1 &1268807684
 GameObject:
   m_ObjectHideFlags: 0

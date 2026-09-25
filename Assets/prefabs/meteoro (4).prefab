@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 6941709377210691176}
   - component: {fileID: 6525201590430223517}
   - component: {fileID: -3311964541631259584}
-  m_Layer: 0
+  - component: {fileID: -8005932231417728315}
+  m_Layer: 7
   m_Name: meteoro (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,3 +187,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49dc36abfeb656846aa6f7eed2484074, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::obstaculo
+--- !u!114 &-8005932231417728315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6324757300495846093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a9b05b718b5fa146bc61045341bba46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyOffScreen

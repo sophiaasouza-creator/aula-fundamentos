@@ -1,5 +1,7 @@
 using UnityEngine;
 
+
+
 public class Spawner : MonoBehaviour
 {
     public GameObject[] SpawnItens;
@@ -10,7 +12,6 @@ public class Spawner : MonoBehaviour
     public float minX = -8f;
     public float maxX = 8f;
     public float spawnY = 6f;
-
     void Start()
     {
         InvokeRepeating("SpawnRandom", SpawnTime, SpawnDelay);
@@ -29,5 +30,7 @@ public class Spawner : MonoBehaviour
 
             rbItem.linearVelocity = direcaoQueda * Random.Range(3f, 6f);
         }
+
+
     }
 }
